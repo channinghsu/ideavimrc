@@ -208,8 +208,3 @@ nmap <leader>zo <action>(ExpandAllRegions)
 nmap <leader>zc <action>(CollapseAllRegions)
 
 nmap <Space>ff :action ShowFilePath<CR>
-" ================================================================================================
-" 🌸🌸🌸 NERDTree 🌸🌸🌸
-" ================================================================================================
-"按下 <leader>nn 将使焦点转移到 NERDTree 窗口
-nmap <leader>nn :NERDTreeFocus<CR>
