@@ -40,8 +40,7 @@ nmap <Leader>d  <C-d>
 nmap ;; :action CommentByLineComment<CR>
 "全局分类替换
 nmap <A-R> :action ReplaceInPath<CR>
-map <A-[> <Action>(Back)
-nmap <A-]> :action Forward<CR>
+
 nmap <TAB> >>
 nmap <C-J> <Action>(MoveLineDown)
 nmap <C-K> <Action>(MoveLineUp)
@@ -208,8 +207,3 @@ nmap <leader>zo <action>(ExpandAllRegions)
 nmap <leader>zc <action>(CollapseAllRegions)
 
 nmap <Space>ff :action ShowFilePath<CR>
-" ================================================================================================
-" 🌸🌸🌸 NERDTree 🌸🌸🌸
-" ================================================================================================
-"按下 <leader>nn 将使焦点转移到 NERDTree 窗口
-nmap <leader>nn :NERDTreeFocus<CR>
